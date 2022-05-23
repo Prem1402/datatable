@@ -85,7 +85,6 @@ export const DataTable = () => {
     const cY = window.scrollY
     const tbh = ref.current.offsetHeight
     const thresh = 1000
-    console.log("value of cY", tbh - cY - thresh)
     if (tbh - cY - thresh < 0) {
       setPageNo((prev) => prev + 1)
     }
