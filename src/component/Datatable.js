@@ -92,7 +92,6 @@ export const DataTable = () => {
   }
 
   const { globalFilter } = state
-  console.log("pageNo", pageNo)
 
   return (
     <>
